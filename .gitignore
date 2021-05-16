@@ -6,22 +6,22 @@
 !/.git*
 
 # Do not ignore current project's `.uproject`.
-!/*.uproject
+!/Lyra_Librae/*.uproject
 
 # Do not ignore source, config and plugins dirs.
-!/Source/**
-!/Config/**
-!/Plugins/**
+!/Lyra_Librae/Source/**
+!/Lyra_Librae/Config/**
+!/Lyra_Librae/Plugins/**
 
 # Only allow .uasset and .umap files from /Content dir.
 # They're tracked by git-lfs, don't forget to track other
 # files if adding them here.
-!/Content/**/*.uasset
-!/Content/**/*.umap
+!/Lyra_Librae/Content/**/*.uasset
+!/Lyra_Librae/Content/**/*.umap
 
 # Allow any files from /RawContent dir.
 # Any file in /RawContent dir will be managed by git lfs.
-!/RawContent/**/*
+!/Lyra_Librae/RawContent/**/*
 
 # OS/platform generated files.
 
